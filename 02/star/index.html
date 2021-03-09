@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star</title>
+</head>
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data" id="my_form" onsubmit="alert(decodeURI(new URLSearchParams(Array.from(new FormData(document.getElementById('my_form')))).toString()));return false;"
+    >
+        <fieldset>
+            <legend>Registration</legend>
+            <p>Login</p>
+            <input type="text" name="users_login" value="user1" required><br> 
+            <p>Password</p>
+            <input type="password" name="users_password" placeholder="Enter your password" required><br> 
+            <p>Secret word</p>
+            <input type="text" name="Secret_word" readonly value="I forgot about this field"><br> 
+            <p>Your email</p>
+            <input type="email" name="users_email" placeholder="Enter ypor email"><br> 
+            <p>Phone</p>
+            <input type="tel" name="users_tel" placeholder="Enter number of your phone"><br> 
+        </fieldset>
+        <fieldset>
+            <legend>Information</legend>
+            <p>Color</p>
+            <input type="color" name="color"><br> 
+            <p>About you</p>
+            <textarea rows="6" cols="45" name="users_info"></textarea><br> 
+            <p>Birthday</p>
+            <input type="date" name="users_birthday"><br> 
+            <p>Your gender</p>
+            <label>
+                <input type="radio" name="users_gender" value="male">Male
+            </label>
+            <label>
+                <input type="radio" name="users_gender" value="female">Female
+            </label>
+            <label>
+                <input type="radio" name="users_gender" value="other">Other
+            </label><br>
+            <p>Social networks</p>
+            <label>
+                <input type="checkbox" name="users_sn[]" value="inst">Instagram
+            </label>
+            <label>
+                <input type="checkbox" name="users_sn[]" value="facebook">Facebook
+            </label>
+            <label>
+                <input type="checkbox" name="users_sn[]" value="twitter">Twitter
+            </label>            
+        </fieldset>
+        <fieldset>
+            <legend>Something</legend>
+            <p>Your</p>
+            <input type="file" name="forgot" value="I forgot too">
+            <p>How old is your car?</p>
+            <input type="number" name="car">
+        </fieldset>
+        <fieldset>
+            <legend>Numbers</legend>
+            <select name="numbers[]" multiple size="4">
+                <optgroup label="Number">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                </optgroup> 
+                <optgroup label="Word">
+                    <option value="six">Six</option>
+                    <option value="seven">Seven</option>
+                    <option value="eight">Eight</option>
+                    <option value="nine">Nine</option>
+                    <option value="ten">Ten</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>I have no idea</legend>
+            <p>Today is...</p>
+            <input type="datetime-local" name="time">
+        </fieldset>
+        <fieldset>
+            <legend>Buttons</legend>
+            <button type="submit">Save</button><br>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
