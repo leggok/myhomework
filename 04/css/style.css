@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    color: white;
+    background-color: #9A0909;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;;
+}
+.container{
+    width:90%;
+    max-width: 940px;
+    margin:0 auto; 
+}
+.promo{
+    text-align: center;
+}
+.menu{
+    padding: 20px 0 0 0;
+    list-style: none;
+    text-align: center;
+    background-color: #000;
+}
+.menu li{
+    padding: 40px 40px 0 40px;
+    display: inline;
+}
+.p_menu{
+    list-style: none;
+    text-align: center;
+    background-color: #000;
+}
+.p_menu li{
+    padding: 0 80px;
+    display: inline;
+}
+
+.left_aside ul{
+    list-style: none;
+    text-decoration: underline;
+}
+.left_aside ul li{
+    margin: 20px 0 20px 0;
+}
+.left_aside{
+    width: 20%;
+    margin-right: 10px;
+    color: #E95B11;
+    background-color: #7D0909;
+    padding: 0 50px 75px 0;
+    float: left;   
+}
+.right_aside{
+    color: #000;
+    text-align: center;
+    padding: 0 50px 50px 0;
+    background-color: #E3DDDD;
+    width: 15%;
+    float: right;   
+}
+.h_aside{
+    text-align: center;
+    width: 154.5%;
+    background-color: #BDBDBD;
+}
+.right_aside ul{
+    list-style: none;
+}
+.right_aside ul li{
+    width: 137.5%;
+    margin: 20px 0 20px 0;
+}
+.content{
+    margin-bottom: 3%;
+    padding: 10px 5px 0 5px;
+}
+footer{
+    background-color:#E95B11;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    /*padding: 5px 0;*/
+    font-size: 15px;
+}
