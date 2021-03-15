@@ -19,14 +19,14 @@ body{
     text-align: center;
 }
 .menu{
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
     list-style: none;
     text-align: center;
     background-color: #000;
 }
 .menu li{
-    padding: 40px 40px 0 40px;
-    display: inline;
+    padding: 15px 40px 0 40px;
+    display: inline-block;
 }
 .p_menu{
     list-style: none;
