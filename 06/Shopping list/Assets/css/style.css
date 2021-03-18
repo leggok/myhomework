@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body{
+    background-color: #fff;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding:18px;
+}
+.container{
+    background-color: #3c3f46;
+}
+.header{
+    background-color: #4a4f55;
+    color: #e97d7b;
+    padding: 14px 0;
+    text-align: center;
+}
+.min_container{
+    width: 620px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: #3c3f46;
+}
+.list{margin: 0 auto;
+    padding: 30px 0;
+    list-style: none;
+}
+ul li{
+    background-color: #7a7593;
+    padding: 14px 0 14px 14px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;   
+}
+
+label>span{
+    display: block;    
+}
+
+.text{
+    margin: auto 0;
+}
+input{
+   
+    width: 10px;
+    height: 10px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+.list .text::before{
+    content: '';
+    display:inline-block;
+    margin: 0 7px 4px 0;
+    width: 15px;
+    height: 7px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    transform: rotate(-45deg);
+}
+.list input:checked ~ .text::before{
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+}
+.min_container{
+    position: relative;
+}
+ul li:nth-child(2n-1){
+    background-color: #88849f;
+}
+
+ul li:hover{
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background-color: #625e77;
+    
+}
+
+input[type]:checked + span{
+    text-decoration: line-through;
+}
+
+input[type]:active + span{
+    color: #e97d7b;
+}
+.small{
+    font-size: 8px;
+}
+.bon{
+    color:#e37a77;
+    background-color: #4a4f55;
+    height: 58px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.header p{
+    font-size: 20px;
+}
+.header p::before{
+    content: '';
+    display:block;
+    height: 2px;
+}
+
