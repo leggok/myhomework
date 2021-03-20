@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    max-width: 940px;
+    margin:0 auto;
+    list-style: none;
+}
+.h_container{
+    width: 526px;
+    margin: 140px auto 100px auto ;
+
+}
+.header_top{
+    font-family: 'Monserat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #898f99;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.monserat_regular{
+    font-family: 'Monserat', sans-serif;
+    /*font-weight: 400;*/
+}
+.pt{
+    font-family: 'PT Sans', sans-serif;
+}
+h1{
+    font-family: 'Monserat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color:#0ec8cb;
+    text-transform: uppercase;
+    margin: 0 0 23px -20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.header_bottom{
+    font-size: 18px;
+    color:#999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 31px;
+    margin-left: -30px;
+    text-align: center;
+}
+
+/*main*/
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.icon_list{
+    list-style: none;
+}
+
+.icon_list li{
+    float: left;
+    width: 25%;
+    background-color: #ececec;
+    font-size: 21px;
+    padding: 1px;
+    text-align: center;
+}
+.inli{
+    background-color: #f7f7f7;
+    padding: 0 32px 80px 32px;
+}
+
+.icon{
+    margin: 42px 0 30px 0;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+}
+.text{
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 1px;
+}
+.icon_yakor{
+    background-position: -10px 0;
+}
+.inli:hover{
+    color: #fff;
+    background-color: #0ec8cb;
+}
+.inli:hover p{
+    color: #fff;
+}
+.inli:hover .icon{
+    background-position-y: -100px;
+}
+.icon_yakor{
+    background-position: -10px 0;
+}
+
+.icon_diamond{
+    background-position: -164px 0;
+}
+
+.icon_glasses{
+    background-position: -322px 0;
+}
+
+.tac{
+    
+    width: 90%;
+}
+
+.icon_tv{
+    background-position: -480px 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+h2{
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 24px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+}

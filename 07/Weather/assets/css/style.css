@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body{
+    background-color: #3399cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#fff;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 984px;
+    margin: 0 auto;
+    background-color: #3399cc;
+}
+.heade{
+    font-size: 30px;
+    margin: 34px 0;
+    letter-spacing: 0.5px;
+}
+.heade i{
+    font-size: 30px;
+}
+.table_weather{
+    background-color: #fff;
+    padding-top: 6px;
+    padding-right: 6px;
+    margin-bottom: 30px;
+}
+.one{
+    background-color: #3399cc;
+}
+.two{
+    background-color: #33cccc;
+}
+.three{
+    background-color: #996699;
+}
+.four{
+    background-color: #c24747;
+}
+.five{
+    background-color: #e2674a;
+}
+.six{
+    background-color: #ffcc66;
+}
+.seven{
+    background-color: #99cc99;
+}
+.eight{
+    background-color: #669999;
+}
+.nine{
+    background-color: #cc6699;
+}
+.ten{
+    background-color: #339966;
+}
+.eleven{
+    background-color: #666699;
+}
+.list_city{
+    font-size: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+    height: 154px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 32px;
+    border-left: 6px solid #fff;
+    border-bottom: 6px solid #fff;
+    opacity: 1;
+}
+.city{
+    margin-bottom: 12px;
+}
+.city + p{
+    opacity: 0.5;
+}
+p i{
+    font-size: 38px;
+}
+.fif{
+    width: 50%;
+}
+.twenty_five{
+    width: 25%;
+}
+.full{
+    width: 100%;
+}
+
+.footer{
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 50px;
+}
+/*hover*/
+.list_city:hover :not(li:hover){
+    opacity: 0.5;
+}
