@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'FuturaPT-Heavy';
+    src: url('../fonts/text_editor_fonts/FuturaPT Heavy/ofont.ru_Futura PT.woff2') format('woff2');
+    src: url('../fonts/text_editor_fonts/FuturaPT Heavy/FuturaPT-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+/**/
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src:url('../fonts/text_editor_fonts/Proxima Nova/ProximaNova-Regular.woff2') format('woff2'), 
+        url('../fonts/text_editor_fonts/Proxima Nova/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+/**/
+@font-face {
+    font-family: 'Playfair';
+    src: url('../fonts/text_editor_fonts/PlayFair/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/text_editor_fonts/PlayFair/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }  
+
+  /**/
+  @font-face {
+	font-family: 'themify';
+	src: url('../fonts/text_editor_fonts/icons/themify.woff2') format('woff2'),
+        url('../fonts/text_editor_fonts/icons/themify.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

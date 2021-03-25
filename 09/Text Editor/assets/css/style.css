@@ -1,0 +1,157 @@
+.fut{
+    font-family: 'FuturaPT-Heavy';
+}
+.prox{
+    font-family: 'ProximaNova-Regular';
+}
+
+.play{
+    font-family: 'Playfair';
+}
+
+.the{
+    font-family: 'themify';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #464f54;
+    
+    width: 90%;
+    max-width: 1060px;
+    margin: 0 auto;
+    
+}
+
+.main_container{
+    margin-top: 150px;
+    box-shadow: 0 0 100px rgb(0 0 0 / 50%);
+}
+.main_container::before{
+    content: '';
+    position: absolute;
+    display: inline;
+    height: 112.5%;
+    width: 5%;
+    border-right: 2px solid #e8eced;
+}
+ul, ol{
+    list-style: none;
+}
+
+.top{
+    position: absolute;
+    width: 70%;
+    top:46px;
+    left: 30%;
+}
+
+.up{
+      box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.title{
+    color:#767676;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.big_text{
+    display: inline;
+    color: #fff;
+    font-size: 48px;
+}
+.big_text::after{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 40px;
+    border-right: 1px solid #fff;
+}
+
+.full_up{
+    padding: 50px 0 50px 60px;
+    background-color: #181818; 
+}
+
+.full_up::after{
+    content: '';
+    display: inline-block;
+    width: 99.8%;   
+    border: 1px solid #fff;
+}
+
+.down{
+    position: relative;
+    background-color: #fbc02d;
+    float: right;
+    width: 93%;
+    color: #fff;
+    font-size: 37px;
+    height: 76px; 
+    padding-left: 36px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.list_icons{
+    padding-top: 7px;
+}
+
+.list_icons li{
+    display: inline-table;
+    margin: 0 5px;
+}
+
+
+.list_icons li *{
+    vertical-align: middle;
+}
+/**/
+.container{
+    padding: 186px 130px 12px 126px;
+    background-color: #fff;
+    
+    
+}
+
+.date{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    color: #b4b4b4;
+    margin-bottom: 20px;
+}
+
+.head{
+    font-size: 78px;
+    text-transform: uppercase;
+    letter-spacing: 4.1px;
+    color: #2a2a2a;
+    margin-bottom: -6px;
+}
+
+.sub_head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #8f8f8f;
+    margin-bottom: 48px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    letter-spacing: 0.1px;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 20px;
+}
