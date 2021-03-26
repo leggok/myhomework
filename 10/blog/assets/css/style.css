@@ -1,0 +1,144 @@
+
+.bold{
+    font-family: 'Raleway-bold';
+}
+.light{
+    font-family: 'Raleway-light';
+}
+.heavy{
+    font-family: 'Raleway-black';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway-bold', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #b07cf7;
+    padding-bottom: 50px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto 50px auto;
+}
+
+.head{
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 90px;
+    margin-bottom: 23px;
+}
+
+.sub_title{
+    font-size: 17px;
+    margin: 0 auto 45px auto;
+    text-align: center;
+    width: 572px;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+}
+
+.first{
+    background: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.second{
+    background-image: url(../images/img2.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.third{
+    background-image: url(../images/img3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.list_pic li{
+    width: 370px;
+    height: 310px;
+    padding-right: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+.date{
+    transition: all 0.5s ease;
+    position: relative;
+    top: -60px;
+    left: -60px;
+    opacity: 0;
+    font-size: 21px;
+    text-transform: uppercase;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 0 6px;
+    text-align: center;
+}
+
+li:hover .date{
+    opacity: 1;
+    top: 30px;
+    left: 30px;
+}
+
+.date p{
+    font-size: 32px;
+    line-height: 31px;
+}
+.bot_text{
+    position: relative;
+    left:20px;
+    bottom: -144px;
+}
+.text{
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+.time{
+    font-size: 13px;
+}
+
+.view_more{
+    transition: all 0.5s ease;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f72b3b;
+    border: 1px solid #f72b3b;
+    padding: 16px 51px;
+    left: 41.5%;
+    top: 65px;
+    box-shadow: 0 0 5px #000;    
+}
+
+.view_more:hover{
+    transition: all 0.5s ease;
+    color: #f72b3b;
+    background-color: #fff;
+    border: 1px solid #f72b3b;
+    padding: 20px 55px;
+}
