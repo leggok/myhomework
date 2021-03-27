@@ -44,12 +44,10 @@ li{
     width: calc(33.3333% - 16px);
     text-align: center;
     border-radius: 3px;
-    border-bottom: 3px solid #ceb567;
-    border-left: 1px solid #ceb567;
-    border-right: 1px solid #ceb567;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-li:nth-child(2){
+.big_card{
     align-self: stretch;
     height: 100%;
 }
@@ -62,10 +60,10 @@ li:nth-child(2){
     margin-bottom: 12px;
 }
 
-li:nth-child(2) .price{
+.big_card .price{
     margin-bottom: 42px;
 }
-li:nth-child(2) img{
+.big_card img{
     margin-bottom: 32px;
 }
 
