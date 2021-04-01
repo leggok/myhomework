@@ -1,0 +1,9 @@
+@font-face{
+    font-family: QuickSand-Regular;
+    src: url("../font/Quicksand-Regular.woff") format("woff");
+}
+
+@font-face{
+    font-family: QuickSand-Bold;
+    src: url("../font/Quicksand-Bold.woff") format("woff");
+}
