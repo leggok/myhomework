@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'LatoB';
+    src: url('../font/Lato-Bold.woff2') format('woff2'); 
+    src: url('../font/Lato-Bold.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'LatoL';
+    src: url('../font/Lato-Light.woff2') format('woff2'); 
+    src: url('../font/Lato-Light.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'LatoR';
+    src: url('../font/Lato-Regular.woff2') format('woff2'); 
+    src: url('../font/Lato-Regular.woff') format('woff'); 
+}
